@@ -2,8 +2,10 @@
 **Image Captioning** is a field that intersects computer vision and natural language processing (NLP), where the goal is to generate an accurate and meaningful textual description of an image. In other words, the task is to design a model that automatically produces a caption for an image, similar to how a human might describe it.
 
 ## **Key Steps and Challenges in Image Captioning:**
+
 **1. Visual Understanding:**
    The model needs to correctly recognize different elements in the image (such as objects, beings, scenes, and their interactions). This is typically done using **Convolutional Neural Networks (CNNs)**, which are well-suited for extracting visual features.
+   
 **2. Natural Language Generation (NLG):**
    After analyzing the image, the model must convert this information into natural language (e.g., English). This is achieved using **Recurrent Neural Networks (RNNs)** or **Transformer** models, which help generate grammatically and contextually correct sentences.
 
@@ -12,11 +14,13 @@ In this project, the objective is to build an **image captioning system** that a
 Encoder-Decoder architecture. Typically, a model that generates sequences will use an Encoder to encode the input into a fixed form and a Decoder to decode it, word by word, into a sequence.
 
 **Step 1:**
+
 **Encoder architecture:** Feature Extraction using CNN (ResNet50)
 For feature extraction, we will leverage the **ResNet50** architecture, a well-known deep CNN model pre-trained on the **ImageNet** dataset. ResNet50 is highly effective in learning hierarchical image representations due to its residual connections, which help in training deeper networks without the problem of vanishing gradients.
 The image input will be passed through the **ResNet50** model, and instead of using the final classification layer, we will extract the feature map from one of the intermediate layers (typically the output of the last convolutional block). These feature maps represent a compressed yet informative summary of the image content, which will then be passed to the text generation model.
 
 **Step 2:**
+
 **Decoder architecture:** Text Generation using RNN (LSTM)
 Once the image features are extracted, the next step is to generate a natural language description. For this, we will use an **LSTM (Long Short-Term Memory)** network, which is a type of Recurrent Neural Network (RNN) well-suited for sequence prediction tasks. LSTMs are known for their ability to model long-range dependencies in sequences, making them ideal for generating coherent sentences.
 The flow for the LSTM network will be as follows:
