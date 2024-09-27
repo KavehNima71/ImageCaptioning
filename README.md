@@ -59,5 +59,8 @@ The flow for the LSTM network will be as follows:
 Exploratory Data Analysis (EDA) of the Flickr8K dataset is conducted to examine various features of facial images. This dataset contains a variety of images along with textual descriptions, and it serves as a suitable resource for training deep learning models to generate captions from images.
 
 **Key steps in EDA for this dataset:**
+
 **1. Statistical distribution analysis:** The first step is to examine the number of images available.
 
+
+![1](https://github.com/user-attachments/assets/a9147f65-76ee-4c40-93fc-d980f5fa6e78)
