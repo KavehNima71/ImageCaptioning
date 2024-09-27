@@ -10,10 +10,12 @@
 # **Our Method:**
 In this project, the objective is to build an **image captioning system** that automatically generates descriptive captions for images. The system will utilize two major components of deep learning: a **Encoder architecture** for extracting image features and a **Decoder architecture** for generating textual descriptions based on those features.
 Encoder-Decoder architecture. Typically, a model that generates sequences will use an Encoder to encode the input into a fixed form and a Decoder to decode it, word by word, into a sequence.
+
 **Step 1:**
 **Encoder architecture:** Feature Extraction using CNN (ResNet50)
 For feature extraction, we will leverage the **ResNet50** architecture, a well-known deep CNN model pre-trained on the **ImageNet** dataset. ResNet50 is highly effective in learning hierarchical image representations due to its residual connections, which help in training deeper networks without the problem of vanishing gradients.
 The image input will be passed through the **ResNet50** model, and instead of using the final classification layer, we will extract the feature map from one of the intermediate layers (typically the output of the last convolutional block). These feature maps represent a compressed yet informative summary of the image content, which will then be passed to the text generation model.
+
 **Step 2:**
 **Decoder architecture:** Text Generation using RNN (LSTM)
 Once the image features are extracted, the next step is to generate a natural language description. For this, we will use an **LSTM (Long Short-Term Memory)** network, which is a type of Recurrent Neural Network (RNN) well-suited for sequence prediction tasks. LSTMs are known for their ability to model long-range dependencies in sequences, making them ideal for generating coherent sentences.
