@@ -29,7 +29,7 @@ The flow for the LSTM network will be as follows:
 3. The process continues until the LSTM generates the complete sentence, which ends with a special '<end>' token.
 
 # **Dataset:**
-**Flickr8K**is a popular dataset in the field of deep learning, particularly for **image captioning** tasks. It contains a variety of images along with textual descriptions, and it serves as a suitable resource for training deep learning models to generate captions from images.
+**Flickr8K** is a popular dataset in the field of deep learning, particularly for **image captioning** tasks. It contains a variety of images along with textual descriptions, and it serves as a suitable resource for training deep learning models to generate captions from images.
 
 **Flickr8K Dataset Specifications:**
 
@@ -52,3 +52,12 @@ The flow for the LSTM network will be as follows:
      - **Training:** About 6,000 images used for training models.
      - **Validation:** Approximately 1,000 images used for initial model evaluation.
      - **Testing:** Around 1,000 images for final evaluation and testing of the model s performance in generating captions.
+
+
+# **Exploratory Data Analysis:**
+
+Exploratory Data Analysis (EDA) of the Flickr8K dataset is conducted to examine various features of facial images. This dataset contains a variety of images along with textual descriptions, and it serves as a suitable resource for training deep learning models to generate captions from images.
+
+**Key steps in EDA for this dataset:**
+**1. Statistical distribution analysis:** The first step is to examine the number of images available.
+
