@@ -1,7 +1,7 @@
 # ImageCaptioning
 **Image Captioning** is a field that intersects computer vision and natural language processing (NLP), where the goal is to generate an accurate and meaningful textual description of an image. In other words, the task is to design a model that automatically produces a caption for an image, similar to how a human might describe it.
 
-## **Key Steps and Challenges in Image Captioning:**
+### **Key Steps and Challenges in Image Captioning:**
 
 **1. Visual Understanding:**
    The model needs to correctly recognize different elements in the image (such as objects, beings, scenes, and their interactions). This is typically done using **Convolutional Neural Networks (CNNs)**, which are well-suited for extracting visual features.
@@ -9,7 +9,7 @@
 **2. Natural Language Generation (NLG):**
    After analyzing the image, the model must convert this information into natural language (e.g., English). This is achieved using **Recurrent Neural Networks (RNNs)** or **Transformer** models, which help generate grammatically and contextually correct sentences.
 
-# **Our Method:**
+## **Our Method:**
 In this project, the objective is to build an **image captioning system** that automatically generates descriptive captions for images. The system will utilize two major components of deep learning: a **Encoder architecture** for extracting image features and a **Decoder architecture** for generating textual descriptions based on those features.
 Encoder-Decoder architecture. Typically, a model that generates sequences will use an Encoder to encode the input into a fixed form and a Decoder to decode it, word by word, into a sequence.
 
@@ -28,10 +28,10 @@ The flow for the LSTM network will be as follows:
 2. The LSTM will also receive the previous words generated in the caption (starting with a special '<start>' token) and predict the next word in the sequence.
 3. The process continues until the LSTM generates the complete sentence, which ends with a special '<end>' token.
 
-# **Dataset:**
+## **Dataset:**
 **Flickr8K** is a popular dataset in the field of deep learning, particularly for **image captioning** tasks. It contains a variety of images along with textual descriptions, and it serves as a suitable resource for training deep learning models to generate captions from images.
 
-**Flickr8K Dataset Specifications:**
+### **Flickr8K Dataset Specifications:**
 
 **1. Number of Images:**
    - The dataset contains **8,000** images that have been collected from the [**Flickr**](https://hockenmaier.cs.illinois.edu/8k-pictures.html) website. These images are typically of natural and everyday scenes, including humans, animals, and various objects.
@@ -54,11 +54,12 @@ The flow for the LSTM network will be as follows:
      - **Testing:** Around 1,000 images for final evaluation and testing of the model s performance in generating captions.
 
 
-# **Exploratory Data Analysis:**
+## **Exploratory Data Analysis:**
 
 Exploratory Data Analysis (EDA) of the Flickr8K dataset is conducted to examine various features of facial images. This dataset contains a variety of images along with textual descriptions, and it serves as a suitable resource for training deep learning models to generate captions from images.
 
-**Key steps in EDA for this dataset:**
+### **Key steps in EDA for this dataset:**
+
 
 **1. Statistical distribution analysis:** The first step is to examine the number of images available.
 
