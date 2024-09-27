@@ -26,7 +26,7 @@ The flow for the LSTM network will be as follows:
 **Flickr8K**is a popular dataset in the field of deep learning, particularly for **image captioning** tasks. It contains a variety of images along with textual descriptions, and it serves as a suitable resource for training deep learning models to generate captions from images.
 **Flickr8K Dataset Specifications:**
 **1. Number of Images:**
-   - The dataset contains **8,000** images that have been collected from the **Flickr**[https://hockenmaier.cs.illinois.edu/8k-pictures.html]] website. These images are typically of natural and everyday scenes, including humans, animals, and various objects.
+   - The dataset contains **8,000** images that have been collected from the [**Flickr**](https://hockenmaier.cs.illinois.edu/8k-pictures.html) website. These images are typically of natural and everyday scenes, including humans, animals, and various objects.
 2. Captions:
    - Each image comes with five different captions. These captions are written by humans, and each one provides a unique description of the image's content.
    - This diversity in captions helps models learn to generate creative and varied descriptions and prevents the model from producing stereotypical or limited sentences.
