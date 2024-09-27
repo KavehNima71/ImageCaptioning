@@ -36,19 +36,19 @@ The flow for the LSTM network will be as follows:
 **1. Number of Images:**
    - The dataset contains **8,000** images that have been collected from the [**Flickr**](https://hockenmaier.cs.illinois.edu/8k-pictures.html) website. These images are typically of natural and everyday scenes, including humans, animals, and various objects.
 
-2. Captions:
-   - Each image comes with five different captions. These captions are written by humans, and each one provides a unique description of the image's content.
+**2. Captions:**
+   - Each image comes with **five different captions**. These captions are written by humans, and each one provides a unique description of the image's content.
    - This diversity in captions helps models learn to generate creative and varied descriptions and prevents the model from producing stereotypical or limited sentences.
 
-3. Use Cases:
-   - Training and evaluating image captioning models: The dataset is used to train models that are capable of generating captions for images, such as models combining CNNs and RNNs (e.g., LSTM).
+**3. Use Cases:**
+   - **Training and evaluating image captioning models:** The dataset is used to train models that are capable of generating captions for images, such as models combining CNNs and RNNs (e.g., LSTM).
 
-4. Data Format:
-   - The images are provided in JPEG format.
+**4. Data Format:**
+   - The images are provided in **JPEG** format.
    - The captions are provided in a text file, where each line includes the image name and the corresponding caption.
 
-5. Data Split:
+**5. Data Split:**
    - The dataset is typically divided into three main parts:
-     - Training: About 6,000 images used for training models.
-     - Validation: Approximately 1,000 images used for initial model evaluation.
-     - Testing: Around 1,000 images for final evaluation and testing of the model s performance in generating captions.
+     - **Training:** About 6,000 images used for training models.
+     - **Validation:** Approximately 1,000 images used for initial model evaluation.
+     - **Testing:** Around 1,000 images for final evaluation and testing of the model s performance in generating captions.
