@@ -88,6 +88,7 @@ Exploratory Data Analysis (EDA) of the Flickr8K dataset is conducted to examine 
 **3. Analyzing Caption Length:** 
 
    **- Number of Words per Caption:** One key analysis in EDA is to examine the average length of captions. This will give you an idea of the distribution of caption lengths. For example, captions may range from 5 to 20 words.
+   
 
 > Total Words: 476878
 
@@ -96,6 +97,7 @@ Exploratory Data Analysis (EDA) of the Flickr8K dataset is conducted to examine 
 > Maximum caption length: 38
 
 > Minimum caption length: 1
+
 
    **- Length Distribution:** Plotting a histogram of caption word counts can show whether the captions are generally short or long. This is important when designing language models like LSTMs, as the model needs to handle varying sentence lengths.
 
