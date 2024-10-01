@@ -28,6 +28,10 @@ The flow for the LSTM network will be as follows:
 2. The LSTM will also receive the previous words generated in the caption (starting with a special '<start>' token) and predict the next word in the sequence.
 3. The process continues until the LSTM generates the complete sentence, which ends with a special '<end>' token.
 
+
+![IMG_20241001_114049_130](https://github.com/user-attachments/assets/3a8564c2-a06d-4331-b961-aa6eecd72e49)
+
+
 ## **Dataset:**
 **Flickr8K** is a popular dataset in the field of deep learning, particularly for **image captioning** tasks. It contains a variety of images along with textual descriptions, and it serves as a suitable resource for training deep learning models to generate captions from images.
 
